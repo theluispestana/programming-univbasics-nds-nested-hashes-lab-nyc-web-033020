@@ -28,10 +28,10 @@ def literal_aoh
     KATE_G,
     BRUCE_G
   ]
-  # aoh
 end
 
 def aoh_lookup(aoh, row, key)
+  aoh[row][key]
 end
 
 def aoh_update(aoh, row, key, new_value)
